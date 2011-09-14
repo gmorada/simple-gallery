@@ -1,0 +1,42 @@
+/* SimpleGallery
+ * By Gustavo Hingel Morada
+    @gmorada, www.facebook.com/gusmorada
+ * MIT Licensed.
+ */
+
+.list
+{
+    position: absolute;
+    display: block;
+    width: 100px;
+    cursor: pointer;
+}
+
+.listWrapper
+{
+    position: relative;
+    width: 500px;
+    height: 140px;
+    float: left;
+    overflow: hidden;
+    padding: 0;
+    list-style: none;
+}
+
+.backward
+{
+    float: left;
+    cursor: pointer;
+}
+
+.forward
+{
+    float: left;
+    cursor: pointer;
+}
+
+.galleryWrapper
+{
+    float: left;
+    width: 100%;
+}
